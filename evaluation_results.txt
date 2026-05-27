@@ -1,0 +1,137 @@
+
+============================================================
+  EVALUATION RESULTS
+  Generated: 2026-05-27 12:42:58
+============================================================
+
+  PERFORMANCE METRICS
+  ----------------------------------------
+  Total Images Evaluated    : 100
+  Correctly Classified      : 94
+  Incorrectly Classified    : 6
+  Accuracy                  : 94.0%
+  Precision                 : 100.0%
+  Recall                    : 88.0%
+  F1-Score                  : 93.62%
+  False Acceptance Rate     : 0.0%
+  Avg Processing Time       : 18.26 ms per image
+
+  CONFUSION MATRIX
+  ----------------------------------------
+                                  Predicted: Accepted  Predicted: Rejected
+  Actual: Usable (Good/Mild)                  TP = 44               FN = 6
+  Actual: Unusable (Mod/Sev)                   FP = 0              TN = 50
+
+  GRADE DISTRIBUTION
+  ----------------------------------------
+  Grade          Ground Truth  System Assigned    Correct
+  Good                     25               25         25
+  Mild                     25               19         19
+  Moderate                 25                6          0
+  Severe                   25               50         25
+
+  INDIVIDUAL RESULTS
+  ----------------------------------------
+  File                                           True   Score Grade      Decision    Match
+  source_001_good.jpg                            good   90.12 Good       accepted      YES
+  source_002_good.jpg                            good   92.06 Good       accepted      YES
+  source_003_good.jpg                            good   90.39 Good       accepted      YES
+  source_004_good.jpg                            good   87.93 Good       accepted      YES
+  source_005_good.jpg                            good   91.12 Good       accepted      YES
+  source_006_good.jpg                            good   89.65 Good       accepted      YES
+  source_007_good.jpg                            good   88.25 Good       accepted      YES
+  source_008_good.jpg                            good   91.21 Good       accepted      YES
+  source_009_good.jpg                            good   89.44 Good       accepted      YES
+  source_010_good.jpg                            good   88.29 Good       accepted      YES
+  source_011_good.jpg                            good   90.14 Good       accepted      YES
+  source_012_good.jpg                            good   90.10 Good       accepted      YES
+  source_013_good.jpg                            good   87.93 Good       accepted      YES
+  source_014_good.jpg                            good   92.00 Good       accepted      YES
+  source_015_good.jpg                            good   90.77 Good       accepted      YES
+  source_016_good.jpg                            good   89.61 Good       accepted      YES
+  source_017_good.jpg                            good   89.05 Good       accepted      YES
+  source_018_good.jpg                            good   89.70 Good       accepted      YES
+  source_019_good.jpg                            good   90.05 Good       accepted      YES
+  source_020_good.jpg                            good   89.46 Good       accepted      YES
+  source_021_good.jpg                            good   87.12 Good       accepted      YES
+  source_022_good.jpg                            good   90.34 Good       accepted      YES
+  source_023_good.jpg                            good   89.29 Good       accepted      YES
+  source_024_good.jpg                            good   89.43 Good       accepted      YES
+  source_025_good.jpg                            good   89.75 Good       accepted      YES
+  source_001_mild.jpg                            mild   51.24 Mild       accepted      YES
+  source_002_mild.jpg                            mild   54.12 Mild       accepted      YES
+  source_003_mild.jpg                            mild   52.11 Mild       accepted      YES
+  source_004_mild.jpg                            mild   48.88 Moderate   rejected       NO
+  source_005_mild.jpg                            mild   51.78 Mild       accepted      YES
+  source_006_mild.jpg                            mild   51.15 Mild       accepted      YES
+  source_007_mild.jpg                            mild   47.90 Moderate   rejected       NO
+  source_008_mild.jpg                            mild   51.89 Mild       accepted      YES
+  source_009_mild.jpg                            mild   51.04 Mild       accepted      YES
+  source_010_mild.jpg                            mild   49.57 Moderate   rejected       NO
+  source_011_mild.jpg                            mild   51.36 Mild       accepted      YES
+  source_012_mild.jpg                            mild   51.23 Mild       accepted      YES
+  source_013_mild.jpg                            mild   47.53 Moderate   rejected       NO
+  source_014_mild.jpg                            mild   52.84 Mild       accepted      YES
+  source_015_mild.jpg                            mild   52.05 Mild       accepted      YES
+  source_016_mild.jpg                            mild   51.46 Mild       accepted      YES
+  source_017_mild.jpg                            mild   49.64 Moderate   rejected       NO
+  source_018_mild.jpg                            mild   50.40 Mild       accepted      YES
+  source_019_mild.jpg                            mild   51.31 Mild       accepted      YES
+  source_020_mild.jpg                            mild   50.59 Mild       accepted      YES
+  source_021_mild.jpg                            mild   46.27 Moderate   rejected       NO
+  source_022_mild.jpg                            mild   51.59 Mild       accepted      YES
+  source_023_mild.jpg                            mild   50.21 Mild       accepted      YES
+  source_024_mild.jpg                            mild   51.17 Mild       accepted      YES
+  source_025_mild.jpg                            mild   50.61 Mild       accepted      YES
+  source_001_moderate.jpg                    moderate   13.44 Severe     rejected      YES
+  source_002_moderate.jpg                    moderate   14.04 Severe     rejected      YES
+  source_003_moderate.jpg                    moderate   13.66 Severe     rejected      YES
+  source_004_moderate.jpg                    moderate   13.01 Severe     rejected      YES
+  source_005_moderate.jpg                    moderate   13.74 Severe     rejected      YES
+  source_006_moderate.jpg                    moderate   13.27 Severe     rejected      YES
+  source_007_moderate.jpg                    moderate   12.63 Severe     rejected      YES
+  source_008_moderate.jpg                    moderate   13.71 Severe     rejected      YES
+  source_009_moderate.jpg                    moderate   13.49 Severe     rejected      YES
+  source_010_moderate.jpg                    moderate   12.87 Severe     rejected      YES
+  source_011_moderate.jpg                    moderate   13.40 Severe     rejected      YES
+  source_012_moderate.jpg                    moderate   13.63 Severe     rejected      YES
+  source_013_moderate.jpg                    moderate   12.61 Severe     rejected      YES
+  source_014_moderate.jpg                    moderate   13.94 Severe     rejected      YES
+  source_015_moderate.jpg                    moderate   13.80 Severe     rejected      YES
+  source_016_moderate.jpg                    moderate   13.40 Severe     rejected      YES
+  source_017_moderate.jpg                    moderate   13.36 Severe     rejected      YES
+  source_018_moderate.jpg                    moderate   13.35 Severe     rejected      YES
+  source_019_moderate.jpg                    moderate   13.54 Severe     rejected      YES
+  source_020_moderate.jpg                    moderate   13.31 Severe     rejected      YES
+  source_021_moderate.jpg                    moderate   12.39 Severe     rejected      YES
+  source_022_moderate.jpg                    moderate   13.53 Severe     rejected      YES
+  source_023_moderate.jpg                    moderate   13.32 Severe     rejected      YES
+  source_024_moderate.jpg                    moderate   13.20 Severe     rejected      YES
+  source_025_moderate.jpg                    moderate   13.46 Severe     rejected      YES
+  source_001_severe.jpg                        severe    7.84 Severe     rejected      YES
+  source_002_severe.jpg                        severe    8.24 Severe     rejected      YES
+  source_003_severe.jpg                        severe    7.85 Severe     rejected      YES
+  source_004_severe.jpg                        severe    7.65 Severe     rejected      YES
+  source_005_severe.jpg                        severe    7.85 Severe     rejected      YES
+  source_006_severe.jpg                        severe    7.82 Severe     rejected      YES
+  source_007_severe.jpg                        severe    7.22 Severe     rejected      YES
+  source_008_severe.jpg                        severe    7.79 Severe     rejected      YES
+  source_009_severe.jpg                        severe    7.89 Severe     rejected      YES
+  source_010_severe.jpg                        severe    7.63 Severe     rejected      YES
+  source_011_severe.jpg                        severe    7.91 Severe     rejected      YES
+  source_012_severe.jpg                        severe    7.78 Severe     rejected      YES
+  source_013_severe.jpg                        severe    7.20 Severe     rejected      YES
+  source_014_severe.jpg                        severe    7.97 Severe     rejected      YES
+  source_015_severe.jpg                        severe    7.87 Severe     rejected      YES
+  source_016_severe.jpg                        severe    7.86 Severe     rejected      YES
+  source_017_severe.jpg                        severe    7.81 Severe     rejected      YES
+  source_018_severe.jpg                        severe    7.67 Severe     rejected      YES
+  source_019_severe.jpg                        severe    7.81 Severe     rejected      YES
+  source_020_severe.jpg                        severe    7.84 Severe     rejected      YES
+  source_021_severe.jpg                        severe    7.05 Severe     rejected      YES
+  source_022_severe.jpg                        severe    7.78 Severe     rejected      YES
+  source_023_severe.jpg                        severe    7.88 Severe     rejected      YES
+  source_024_severe.jpg                        severe    7.77 Severe     rejected      YES
+  source_025_severe.jpg                        severe    7.78 Severe     rejected      YES
+
+============================================================
