@@ -5,8 +5,7 @@ built with **FastAPI (Python)** and **React**. Uses **Laplacian Variance** and
 **Tenengrad Gradient Magnitude** to compute a single composite quality score and
 decide whether an uploaded ID is sharp enough to use downstream.
 
-> **Academic project.** Final year research on classical (non-ML) blur detection
-> for identity verification pipelines.
+> **Academic project.** DESIGN AND IMPLEMENTATION OF AN AUTOMATED BLURRY IDENTITY DOCUMENT IMAGE DETECTION SYSTEM.
 
 ---
 
